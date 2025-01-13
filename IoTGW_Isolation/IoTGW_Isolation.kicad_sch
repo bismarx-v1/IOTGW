@@ -4093,13 +4093,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 91.44) (xy 69.85 88.9)
+			(xy 66.04 132.08) (xy 73.66 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "169c11ef-575b-48f9-8f89-8835793427ce")
+		(uuid "0b6d322a-eab4-4ce3-8c08-b3ce39ea8e6a")
 	)
 	(wire
 		(pts
@@ -4303,6 +4303,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 132.08) (xy 83.82 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfdd052-09bc-48a4-ab6c-3d317b17f169")
+	)
+	(wire
+		(pts
 			(xy 151.13 67.31) (xy 165.1 67.31)
 		)
 		(stroke
@@ -4433,6 +4443,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 149.86) (xy 78.74 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25d1e5e-5dd6-4838-95dd-7866cebfd9c3")
+	)
+	(wire
+		(pts
 			(xy 143.51 148.59) (xy 148.59 148.59)
 		)
 		(stroke
@@ -4510,26 +4530,6 @@
 			(type default)
 		)
 		(uuid "d8c9d26c-dcad-4364-a88f-1840a1ffb16c")
-	)
-	(wire
-		(pts
-			(xy 62.23 81.28) (xy 64.77 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd140962-2e59-4a56-b8a0-225c540b6741")
-	)
-	(wire
-		(pts
-			(xy 80.01 81.28) (xy 74.93 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e150ce4c-dc96-4b97-b06b-96c9604ca966")
 	)
 	(wire
 		(pts
@@ -8122,6 +8122,27 @@
 		)
 		(uuid "0002ecdc-0f5e-404f-9d7d-fb294a5b81e0")
 	)
+	(text "75,12CZK for a unit if qty of units is 10 "
+		(exclude_from_sim no)
+		(at 184.785 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "026d827f-8615-4db2-b132-91d0bb5d11b1")
+	)
+	(text "Vf = 1.2V\nIf = 20mA\nVcc = 5V (RPi)\n\nR = (Vcc - Vf) / If\nR = 190 ~ 200R\n\nIf [200R] = 19mA"
+		(exclude_from_sim no)
+		(at 133.985 129.54 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "02f826e4-e425-4aa5-b00b-92bbb4001f7a")
+	)
 	(text "SCRAPPED"
 		(exclude_from_sim no)
 		(at -65.278 9.652 0)
@@ -8154,6 +8175,16 @@
 			)
 		)
 		(uuid "2a10b4b5-5c5d-49f5-a680-0df26952c2aa")
+	)
+	(text "choose a pmos\n\nwill it be ok to use it with rs-485 isolater\nmake a simulation in falstad"
+		(exclude_from_sim no)
+		(at 76.2 167.005 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3089d727-9035-43d3-91b2-3003773af855")
 	)
 	(text "TLP2270(TP4,E is 20Mb/s cost, for 10 units is 43,35CZK"
 		(exclude_from_sim no)
@@ -8247,6 +8278,16 @@
 		)
 		(uuid "7fa3f78d-d2c9-4ab6-9f7b-dc7d924745b2")
 	)
+	(text "5,60CZK for a unit if qty of units is 10 "
+		(exclude_from_sim no)
+		(at 158.75 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "801cb79b-fbd5-4c56-a2f3-3d5fe4a8a68e")
+	)
 	(text "GPIO OPTOCOUPLERS"
 		(exclude_from_sim no)
 		(at 177.292 119.38 0)
@@ -8274,7 +8315,7 @@
 	)
 	(text "RS-485 A = Non-inverting receiver input and transmitter output [DATA RECEIVER] \nRS-485 B = Inverting receiver input and transmitter output [DATA RECEIVER]\n\nRS-485 Y = Non-inverting transmitter output [DATA TRANSMITTER]\nRS-485 Z = Inverting transmitter output [DATA TRANSMITTER]"
 		(exclude_from_sim no)
-		(at 119.38 97.79 0)
+		(at 118.745 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8315,16 +8356,6 @@
 		)
 		(uuid "c26f02b5-c4c7-4e41-b0cb-265a9a69eeba")
 	)
-	(text "choose a pmos\n\nwill it be ok to use it with rs-485 isolater\nmake a simulation in falstad"
-		(exclude_from_sim no)
-		(at 81.915 102.235 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cce911e9-47b8-448f-bc03-c488b03fc524")
-	)
 	(text "40mA MAX - TOO LITTLE - HIGH COST"
 		(exclude_from_sim no)
 		(at -55.88 79.375 0)
@@ -8340,7 +8371,7 @@
 	)
 	(text "ISOLATED RS-485 TRANSCEIVER"
 		(exclude_from_sim no)
-		(at 171.196 26.416 0)
+		(at 171.45 26.035 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -8351,6 +8382,17 @@
 			)
 		)
 		(uuid "d5810f56-1625-4ba4-b836-874bc8864d27")
+	)
+	(text "SUPPORTS HALF AND FULL DUPLEX"
+		(exclude_from_sim no)
+		(at 135.89 92.075 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e59c8dc8-5da6-415e-bb9d-8ed08a517da1")
 	)
 	(text "* D=DRIVER \n  DRIVER = TRANSMITTER"
 		(exclude_from_sim no)
@@ -9044,6 +9086,73 @@
 		)
 	)
 	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 91.44 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17fed39a-b64c-4170-b9e8-3df47de95dd8")
+		(property "Reference" "#PWR027"
+			(at 87.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_PROT"
+			(at 94.615 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff329c4a-802b-4e13-9d61-5c6b67065f56")
+		)
+		(instances
+			(project "IoTGW_Isolation"
+				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 200.66 143.51 270)
 		(mirror x)
@@ -9312,6 +9421,74 @@
 			(project "OptoCouplers"
 				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND1_1")
+		(lib_id "power:GND1")
+		(at 78.74 149.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bfd2f29-86c5-4643-aee6-35013934619f")
+		(property "Reference" "#PWR026"
+			(at 78.74 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_OUT"
+			(at 78.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c3f5f98-daec-4e59-bfb6-3a119e8052ff")
+		)
+		(instances
+			(project "IoTGW_Isolation"
+				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9669,6 +9846,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 90.17 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a460bb7-e326-4a65-afd8-01e1c99497f2")
+		(property "Reference" "R?"
+			(at 92.71 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 92.71 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.948 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bf360c4-7f0f-4817-a56b-f76f956727cb")
+		)
+		(pin "1"
+			(uuid "e7f5510f-40ec-4b67-afce-cf2fca0d9239")
+		)
+		(instances
+			(project "IoTGW_Isolation"
+				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 176.53 78.74 0)
 		(unit 1)
@@ -10002,104 +10248,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 69.85 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58bea3a4-4620-4a0e-9491-ba422d0bac9a")
-		(property "Reference" "Q?"
-			(at 69.85 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 69.85 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 82.55 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 69.85 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 86.995 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 88.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 85.09 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46120d31-0009-466c-a77c-857faa6e0516")
-		)
-		(pin "3"
-			(uuid "8b8e0579-21fd-45b7-b393-9117376b4ce3")
-		)
-		(pin "2"
-			(uuid "a195927e-5886-4cc3-b0fe-bf076b6b5b61")
-		)
-		(instances
-			(project ""
-				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at -64.77 59.69 0)
 		(unit 1)
@@ -10293,73 +10441,6 @@
 			(project ""
 				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VP")
-		(at 62.23 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a97b290-775d-44a3-bb44-f6efa21e693a")
-		(property "Reference" "#PWR026"
-			(at 66.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_OUT"
-			(at 58.42 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 62.23 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "516d8f93-8f4d-4664-84c7-89ec3f7bd101")
-		)
-		(instances
-			(project "IoTGW_Isolation"
-				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10700,74 +10781,6 @@
 			(project "OptoCouplers"
 				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND1_1")
-		(lib_id "power:GND1")
-		(at 69.85 91.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95399bf6-e493-47a9-84dd-1f4d8fd04f20")
-		(property "Reference" "#PWR027"
-			(at 69.85 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_OUT"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 69.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddbd42cb-a374-4e7c-ac9f-1eade35ce828")
-		)
-		(instances
-			(project "IoTGW_Isolation"
-				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11231,6 +11244,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 78.74 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b63fb6d0-69cb-4df3-9510-a0870421c1ca")
+		(property "Reference" "Q?"
+			(at 78.74 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 78.74 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 78.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 95.885 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 97.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 93.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4154c280-008d-4399-9c02-a77033bda5df")
+		)
+		(pin "3"
+			(uuid "7dcfce69-7287-4da7-bfda-8206b9be0531")
+		)
+		(pin "2"
+			(uuid "35742180-8fa2-4f7d-97f9-5aa3a1707b6e")
+		)
+		(instances
+			(project "IoTGW_Isolation"
+				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Converter_DCDC:TEA1-0505")
 		(at 77.47 43.18 0)
 		(unit 1)
@@ -11501,6 +11612,75 @@
 			(project "IoTGW_Isolation"
 				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0a464e6-480f-462a-aedc-6c525ad462b4")
+		(property "Reference" "R?"
+			(at 81.28 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 81.28 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.518 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84c06c70-772e-4301-8cfc-1d05862aea6d")
+		)
+		(pin "1"
+			(uuid "c379c2e9-c077-4f10-a681-1adcd897b132")
+		)
+		(instances
+			(project "IoTGW_Isolation"
+				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11778,6 +11958,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VP")
+		(at 66.04 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecd0a88d-c214-4cb8-ae0d-f9a751d4e9df")
+		(property "Reference" "#PWR014"
+			(at 69.85 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_OUT"
+			(at 62.23 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "641e4fc0-e96f-48c3-b606-5b2101759e1f")
+		)
+		(instances
+			(project "IoTGW_Isolation"
+				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 226.06 148.59 0)
 		(mirror y)
@@ -11906,73 +12153,6 @@
 			(project "OptoCouplers"
 				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 80.01 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4b7b844-3f7f-4974-abaf-5c4ab6e8e47f")
-		(property "Reference" "#PWR014"
-			(at 76.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_PROT"
-			(at 83.185 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 80.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0410722a-8c6f-423a-b82e-cfd5e1fc29a6")
-		)
-		(instances
-			(project ""
-				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
