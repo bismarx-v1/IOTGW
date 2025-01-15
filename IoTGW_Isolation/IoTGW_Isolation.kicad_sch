@@ -8143,6 +8143,20 @@
 		)
 		(uuid "02f826e4-e425-4aa5-b00b-92bbb4001f7a")
 	)
+	(text "NOT NEEDED SINCE \nITS ONLY OUTPUT"
+		(exclude_from_sim no)
+		(at 77.47 90.805 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "0f18ef89-a144-4e45-864c-47199b999c46")
+	)
 	(text "SCRAPPED"
 		(exclude_from_sim no)
 		(at -65.278 9.652 0)
