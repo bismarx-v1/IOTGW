@@ -1,4 +1,4 @@
-23647302387761176
+23649039600324258
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63307,6 +63307,13 @@ THT Terminal Block 4Ucon ItemNo. 10684 pitch 3.5mm size 25.2x7mm^2 drill 1.2mm p
 0
 7
 7
+IoTGW
+Molex_8pin_3.50
+Terminal Block 4Ucon ItemNo. 10684, 7 pins, pitch 3.5mm, size 25.2x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/10684.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon
+THT Terminal Block 4Ucon ItemNo. 10684 pitch 3.5mm size 25.2x7mm^2 drill 1.2mm pad 2.4mm
+0
+8
+8
 IoTGW
 OPTO-SMD4
 

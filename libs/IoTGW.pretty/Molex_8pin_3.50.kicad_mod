@@ -1,0 +1,266 @@
+(footprint "Molex_8pin_3.50"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Terminal Block 4Ucon ItemNo. 10684, 7 pins, pitch 3.5mm, size 25.2x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/10684.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
+	(tags "THT Terminal Block 4Ucon ItemNo. 10684 pitch 3.5mm size 25.2x7mm^2 drill 1.2mm pad 2.4mm")
+	(property "Reference" "REF**"
+		(at 1.86 2.55 0)
+		(layer "F.SilkS")
+		(uuid "b247c207-c199-4976-8745-4fdd2a3eea6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Molex_8pin_3.50"
+		(at 12.96 3.15 0)
+		(layer "F.Fab")
+		(uuid "b946c0c9-9b12-4ac1-a3aa-cf4db1a0a199")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2.48 -7.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce0105c8-566b-482b-bbfb-53194c35df70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.48 -7.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a1e3e64-dab8-4f8b-b0ba-453c79a4efa6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.48 -7.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5c150f0-ef7e-4707-bdcc-780133e4e9b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.25 -9.35)
+		(end 2.25 -9.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d01197af-d90b-402c-b0e8-87ad9b6a9399")
+	)
+	(fp_line
+		(start -0.25 -7)
+		(end -0.25 -9.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2a7f13c3-b002-4383-a967-67687812533d")
+	)
+	(fp_line
+		(start -0.02 -9.1)
+		(end -0.02 0.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c76330a-f9e8-45e7-95d8-b37d348cc249")
+	)
+	(fp_line
+		(start -0.02 -9.1)
+		(end 29.47 -9.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "238c5b69-273e-4269-9317-78c46c8b76e6")
+	)
+	(fp_line
+		(start -0.02 -1.5)
+		(end 29.47 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d6224a3-a9dc-470c-8a22-9a2faa942610")
+	)
+	(fp_line
+		(start -0.02 0.15)
+		(end 29.47 0.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32bcec1a-3c43-4899-8b5d-bcde42c43451")
+	)
+	(fp_line
+		(start 29.47 -9.1)
+		(end 29.47 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "997e4dc4-7213-4405-b733-c76e85132787")
+	)
+	(fp_line
+		(start -0.44 -9.62)
+		(end -0.44 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57ca6a73-e429-44aa-8b32-a3a2b4887e40")
+	)
+	(fp_line
+		(start -0.44 0.4)
+		(end 29.77 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdb916bb-2397-4106-983a-0ac5e45ada95")
+	)
+	(fp_line
+		(start 29.77 -9.62)
+		(end -0.44 -9.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb4e0aa6-612f-4964-9ea7-529925c03786")
+	)
+	(fp_line
+		(start 29.77 0.4)
+		(end 29.77 -9.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c714b852-d15b-47e4-b4da-17016465be11")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 13.21 1.3 0)
+		(layer "F.Fab")
+		(uuid "32af6026-4251-4636-a749-70f2437726b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 2.48 -7.85)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80fb68e8-1ea0-42ae-a72c-f55b5a76e55c")
+	)
+	(pad "2" thru_hole circle
+		(at 5.98 -7.85)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "57087cd1-3c0d-4202-86f6-a3d73c48ebba")
+	)
+	(pad "3" thru_hole circle
+		(at 9.48 -7.85)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "45623741-f0da-43f6-ab4c-570f0543165c")
+	)
+	(pad "4" thru_hole circle
+		(at 12.98 -7.85)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "21a841a3-ccf7-4ef1-89b0-c47e602c3c3c")
+	)
+	(pad "5" thru_hole circle
+		(at 16.48 -7.85)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc4ccaf5-58ed-41c8-a570-a2cd860d264c")
+	)
+	(pad "6" thru_hole circle
+		(at 19.98 -7.85 90)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "761b1680-4005-4285-8779-6b3d358db63a")
+	)
+	(pad "7" thru_hole circle
+		(at 23.48 -7.85)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "81f82246-2e4d-4c19-b7aa-ad36ebefdfbe")
+	)
+	(pad "8" thru_hole circle
+		(at 26.98 -7.85)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "187dc8d1-035f-4fd8-ab74-6c559c53b233")
+	)
+	(model "C:/Users/popov/Github/IOTGW/libs/3D/395021008_8pin.stp"
+		(offset
+			(xyz 14.75 4.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
