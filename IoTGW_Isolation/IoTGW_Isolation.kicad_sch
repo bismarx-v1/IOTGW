@@ -7610,7 +7610,7 @@
 	)
 	(text "CIRCUIT PROTECTION"
 		(exclude_from_sim no)
-		(at 49.784 22.86 0)
+		(at 49.784 23.368 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -8592,6 +8592,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 259.08 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01d86961-e115-4f5f-a8da-c1068b65ce8b")
+		(property "Reference" "#PWR036"
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 259.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 259.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16db1b23-b83b-4195-9a4d-8e0ec3b8ded1")
+		)
+		(instances
+			(project "IoTGW_Isolation"
+				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND1_1")
 		(lib_id "power:GND1")
 		(at 60.96 40.64 0)
@@ -8654,73 +8720,6 @@
 			(project "OptoCouplers"
 				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 259.08 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "033ac482-bdeb-4e46-b357-0961f6f3ec04")
-		(property "Reference" "#PWR028"
-			(at 259.08 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_PROT"
-			(at 260.096 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 259.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97353be1-8795-4e56-9b19-e8f2e56e5982")
-		)
-		(instances
-			(project "IoTGW_Isolation"
-				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8992,6 +8991,72 @@
 			(project "IoTGW_Isolation"
 				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 259.08 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "162a80f9-78d1-41f4-a1ec-cf14325eb0bf")
+		(property "Reference" "#PWR029"
+			(at 259.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 259.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21c9eaec-5221-4dff-877f-c89ffddde1fd")
+		)
+		(instances
+			(project "IoTGW_Isolation"
+				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10182,73 +10247,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 259.08 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7435e17a-ea9c-4f2b-b9b3-8f7b244848d2")
-		(property "Reference" "#PWR030"
-			(at 259.08 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_PROT"
-			(at 260.096 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 259.08 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bac64ae-9744-4658-b707-d6c6d0dbb48a")
-		)
-		(instances
-			(project "IoTGW_Isolation"
-				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 35.56 35.56 90)
 		(unit 1)
@@ -10380,73 +10378,6 @@
 			(project "OptoCouplers"
 				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 200.66 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "812cc32b-2492-4fb9-9c8d-613f3f3b53cd")
-		(property "Reference" "#PWR021"
-			(at 200.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_PROT"
-			(at 201.676 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a107cdf-321c-4c1c-91ff-879b7806a2d8")
-		)
-		(instances
-			(project "IoTGW_Isolation"
-				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11073,6 +11004,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VP")
+		(at 200.66 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d7a1777-a7c4-47f0-9196-42e4c20678d8")
+		(property "Reference" "#PWR021"
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_OUT"
+			(at 206.248 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1c44122-8359-4361-b76c-e04dca221e16")
+		)
+		(instances
+			(project "IoTGW_Isolation"
+				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND1_1")
 		(lib_id "power:GND1")
 		(at 39.37 55.88 0)
@@ -11465,6 +11461,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VP")
+		(at 200.66 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acdf789a-f60f-4898-aa47-f1c103a79172")
+		(property "Reference" "#PWR020"
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_OUT"
+			(at 206.248 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98439f57-28d9-4929-bd0c-0eefa3ae5625")
+		)
+		(instances
+			(project "IoTGW_Isolation"
+				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 176.53 83.82 270)
 		(mirror x)
@@ -11660,6 +11721,71 @@
 			(project "IoTGW_Isolation"
 				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 124.46 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1fdd76f-db91-4a66-81c6-24bf84f71267")
+		(property "Reference" "#PWR015"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_OUT"
+			(at 131.572 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0e89d5d-ab2a-4149-a878-ec3b0d8ad708")
+		)
+		(instances
+			(project "IoTGW_Isolation"
+				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12018,6 +12144,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 259.08 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1525307-9435-425e-bf4d-caac23541226")
+		(property "Reference" "#PWR028"
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 259.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 259.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7311ed29-9263-4512-bf83-664de7f3efa5")
+		)
+		(instances
+			(project "IoTGW_Isolation"
+				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 39.37 109.22 0)
 		(mirror x)
@@ -12224,16 +12416,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
-		(at 113.03 39.37 0)
-		(mirror y)
+		(at 113.03 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c8ba6caf-3d2c-4260-9c14-1e8effdfafb4")
-		(property "Reference" "J5"
-			(at 114.3 29.464 0)
+		(uuid "c7e4be05-6463-4cc3-81e7-14aa23c1e5f0")
+		(property "Reference" "J1"
+			(at 114.046 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12242,7 +12433,7 @@
 			)
 		)
 		(property "Value" "39502-1008"
-			(at 124.968 52.324 0)
+			(at 124.46 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12251,7 +12442,7 @@
 			)
 		)
 		(property "Footprint" "IoTGW:Molex_8pin_3.50"
-			(at 113.03 39.37 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12260,7 +12451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 39.37 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12269,7 +12460,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 113.03 39.37 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12278,50 +12469,49 @@
 			)
 		)
 		(pin "2"
-			(uuid "6b22da9f-6aa8-46bd-b006-6814c8804edd")
+			(uuid "f21bdc6b-b0d9-4025-9e71-f650d137110c")
 		)
 		(pin "4"
-			(uuid "e1fb9a99-ade2-4e43-a8c2-d96b5c1701f0")
+			(uuid "223c7a25-e20d-4c2a-be54-dff96ca4f609")
 		)
 		(pin "5"
-			(uuid "2d554d19-f4e2-4d0a-bf61-21c8d2ccb3e3")
+			(uuid "372ac422-3dda-4c93-bfb6-7ebeb7942a40")
 		)
 		(pin "3"
-			(uuid "f13bd595-e3c4-498c-ab47-6d6186fd5682")
+			(uuid "eaaf7499-a1df-40bc-8d5c-b256acb55ae8")
 		)
 		(pin "6"
-			(uuid "fd6c3968-a82e-4eac-8ca9-fc5ce26e48a3")
+			(uuid "18fc489b-80f1-4cc1-959a-6d4fe353f098")
 		)
 		(pin "1"
-			(uuid "c2ded67e-6e5f-4c60-9d72-913559f1887b")
+			(uuid "c4844f7c-14a1-41c4-a9d8-f5f59a693108")
 		)
 		(pin "7"
-			(uuid "b9caeb95-7709-463e-afc2-8fdd5c5873c7")
+			(uuid "cd747c5c-f80a-4b0a-b212-633b9bf55017")
 		)
 		(pin "8"
-			(uuid "41f3e933-12d6-4d4b-a758-97a54ea80086")
+			(uuid "eec9c204-d611-43f2-8cdc-82fe1f223a45")
 		)
 		(instances
 			(project "IoTGW_Isolation"
 				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 259.08 73.66 0)
+		(lib_id "power:+5VP")
+		(at 200.66 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cfb655a3-3277-4339-a5cb-41f9d5469d0f")
-		(property "Reference" "#PWR029"
-			(at 259.08 77.47 0)
+		(uuid "cdd9cdbe-5dbc-4ab5-9514-c825f6f02191")
+		(property "Reference" "#PWR019"
+			(at 200.66 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12329,17 +12519,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_PROT"
-			(at 260.096 71.374 0)
+		(property "Value" "+5V_OUT"
+			(at 206.248 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 73.66 0)
+			(at 200.66 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12348,7 +12537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 73.66 0)
+			(at 200.66 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12356,8 +12545,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 259.08 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 200.66 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12366,12 +12555,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf3f5e50-170e-47c9-813a-e880315630f4")
+			(uuid "15a3a527-6e4d-4c91-8897-0ff419cd3d18")
 		)
 		(instances
 			(project "IoTGW_Isolation"
 				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
-					(reference "#PWR029")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12723,73 +12912,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 200.66 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9f83470-9959-4f3a-9f8f-a17fea532b3e")
-		(property "Reference" "#PWR020"
-			(at 200.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_PROT"
-			(at 201.676 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22a5328b-c3f6-44b4-ad54-fab1628b7b35")
-		)
-		(instances
-			(project "IoTGW_Isolation"
-				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 99.06 31.75 90)
 		(unit 1)
@@ -13053,140 +13175,6 @@
 			(project "OptoCouplers"
 				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 124.46 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef6377d9-ecd3-4adb-9e3d-efbd7801773d")
-		(property "Reference" "#PWR015"
-			(at 120.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_PROT"
-			(at 127.635 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 124.46 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7da78575-3e00-425a-9912-a5b4a1b3c141")
-		)
-		(instances
-			(project "IoTGW_Isolation"
-				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 200.66 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1f110ae-fe44-41c5-be08-d174300cb5c0")
-		(property "Reference" "#PWR019"
-			(at 200.66 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_PROT"
-			(at 201.676 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.66 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1159fc1-f3bc-49c0-88b5-b97eb3cb4a26")
-		)
-		(instances
-			(project "IoTGW_Isolation"
-				(path "/2d1c3ebc-b5b7-4bd6-ada4-e78c3f1503ff"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
