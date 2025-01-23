@@ -600,7 +600,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "IoTGW_Isolation.step",
       "svg": "",
       "vrml": ""
     },
