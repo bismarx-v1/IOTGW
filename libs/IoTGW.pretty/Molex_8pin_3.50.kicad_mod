@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Molex_8pin_3.50"
 		(at 2.48 -7.85 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -252,7 +252,7 @@
 		(remove_unused_layers no)
 		(uuid "187dc8d1-035f-4fd8-ab74-6c559c53b233")
 	)
-	(model "C:/Users/popov/Github/IOTGW/libs/3D/395021008_8pin.stp"
+	(model "$(KIPRJMOD)/../libs/3D/395021008_8pin.stp"
 		(offset
 			(xyz 14.75 4.5 0)
 		)
