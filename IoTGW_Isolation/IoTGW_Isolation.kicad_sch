@@ -3126,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 115.57) (xy 49.53 115.57)
+			(xy 39.37 115.57) (xy 50.8 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3446,7 +3446,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 102.87) (xy 49.53 102.87)
+			(xy 39.37 102.87) (xy 50.8 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7486,6 +7486,16 @@
 		)
 		(uuid "21bfeb2d-def2-461f-9d14-299db03f4642")
 	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 130.81 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22e4c8cc-124f-46b4-89b2-ce6f118bc685")
+	)
 	(text "I think we dont need it at all: Cost inneffective."
 		(exclude_from_sim no)
 		(at -122.428 188.722 0)
@@ -7776,6 +7786,16 @@
 		)
 		(uuid "d2c26ae2-25b5-464c-a66b-bc80743b5d34")
 	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 130.81 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4345c78-ad47-4b22-a86b-cdec7afaa2f6")
+	)
 	(text "SUPPORTS HALF AND FULL DUPLEX"
 		(exclude_from_sim no)
 		(at 44.45 136.525 0)
@@ -7835,7 +7855,7 @@
 		)
 		(uuid "f85b55ef-b46a-490c-8aeb-e77569c6de66")
 	)
-	(label "RS-485_B"
+	(label "RS-485_-"
 		(at 59.69 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7846,7 +7866,7 @@
 		)
 		(uuid "26b0216e-f84e-4ce6-88a1-a429e7bfcb25")
 	)
-	(label "RS-485_A"
+	(label "RS-485_+"
 		(at 59.69 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7879,8 +7899,8 @@
 		)
 		(uuid "c370b320-54e2-4ef8-81b0-9c3b9eb807d5")
 	)
-	(label "RS-485_A"
-		(at 49.53 102.87 180)
+	(label "RS-485_+"
+		(at 50.8 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7890,8 +7910,8 @@
 		)
 		(uuid "d3349c32-481f-4bf5-a751-e3633316c68d")
 	)
-	(label "RS-485_B"
-		(at 49.53 115.57 180)
+	(label "RS-485_-"
+		(at 50.8 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7938,6 +7958,29 @@
 		(uuid "0ee90386-6928-4d92-9bf7-bae5bb49c578")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.214 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_COMM"
+		(shape input)
+		(at 101.6 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "19c23ae4-3c40-4c3c-9f0c-4f5c1ad92185")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.8483 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,6 +8266,29 @@
 			)
 		)
 	)
+	(global_label "GPIO_R"
+		(shape output)
+		(at 101.6 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "7e28d468-64ec-49e2-84b5-18d89e09d4cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.8116 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_EXT_2"
 		(shape input)
 		(at 228.6 113.03 180)
@@ -8246,7 +8312,7 @@
 			)
 		)
 	)
-	(global_label "RS-485_B"
+	(global_label "RS-485_-"
 		(shape output)
 		(at 120.65 46.99 0)
 		(fields_autoplaced yes)
@@ -8259,7 +8325,7 @@
 		)
 		(uuid "88a85fc6-9ddb-4b27-8595-66287e7bba33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.6823 46.99 0)
+			(at 129.894 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +8450,7 @@
 			)
 		)
 	)
-	(global_label "RS-485_A"
+	(global_label "RS-485_+"
 		(shape output)
 		(at 120.65 44.45 0)
 		(fields_autoplaced yes)
@@ -8397,7 +8463,7 @@
 		)
 		(uuid "c88c665d-9295-4070-988d-8315a0b8e846")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.5553 44.45 0)
+			(at 129.894 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,52 +8538,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_COMM"
-		(shape input)
-		(at 101.6 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "d7242ef7-4760-4e4b-b332-fb559e7015d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.8483 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_R"
-		(shape output)
-		(at 101.6 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "d93de0a7-67ec-4f4d-9752-7010fbde8b4c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.8116 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
