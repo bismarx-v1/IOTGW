@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Molex_8pin_3.50"
-		(at 12.96 3.15 0)
+		(at 13.9 3.3 0)
 		(layer "F.Fab")
 		(uuid "b946c0c9-9b12-4ac1-a3aa-cf4db1a0a199")
 		(effects
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" "Molex_8pin_3.50"
-		(at 2.48 -7.85 0)
+		(at 14.725 -1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -129,7 +129,7 @@
 	)
 	(fp_line
 		(start 29.47 -9.1)
-		(end 29.47 0)
+		(end 29.47 0.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -178,7 +178,7 @@
 		(uuid "c714b852-d15b-47e4-b4da-17016465be11")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 13.21 1.3 0)
+		(at 14 1.4 0)
 		(layer "F.Fab")
 		(uuid "32af6026-4251-4636-a749-70f2437726b3")
 		(effects
