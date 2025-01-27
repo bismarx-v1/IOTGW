@@ -3706,7 +3706,7 @@
 		(uuid "260843a2-50d6-465f-8adc-e94db218e47c")
 	)
 	(no_connect
-		(at 123.19 62.23)
+		(at 121.92 62.23)
 		(uuid "662462ee-0c9b-48b3-96ab-1cab1359f258")
 	)
 	(no_connect
@@ -3718,7 +3718,7 @@
 		(uuid "a10eb552-36cc-493e-9076-0270ccf2d6f5")
 	)
 	(no_connect
-		(at 114.3 62.23)
+		(at 113.03 62.23)
 		(uuid "b54f4e94-209f-43f0-8926-772868042892")
 	)
 	(no_connect
@@ -8308,9 +8308,9 @@
 		)
 		(uuid "38fbd06f-1b84-4703-86ba-73b911f3e094")
 	)
-	(text "1. Q: Output and Input connectors\n2. Q: Better connectors Molex terminals\n3. Q: Is there a need for cooling? - Fuse, ISO, etc\n4. Q: PCB Layout\n5. Q: []"
+	(text "TO-DO:\n- Change all of the logic to 3.3V logic\n- Can user error cause overvoltage on the gpio pin? (optocouplers)\n- Come up with a solution for 3.3V logic switch"
 		(exclude_from_sim no)
-		(at 23.876 220.726 0)
+		(at 64.008 183.896 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8436,7 +8436,7 @@
 		)
 		(uuid "82325806-1edb-48f4-b3e5-2a45e6f8edd4")
 	)
-	(text "1. Q: Does the RS-485 have to be on its own separeted connector (twisted pair)\n2. Q: Are RPi GPIOs 5V safe, requires confirmation.\n3. Q: \n4. Q: \n5. Q: []"
+	(text "1. Q: Does the RS-485 have to be on its own separeted connector (twisted pair)\n2. Q: \n3. Q: \n4. Q: \n5. Q: []"
 		(exclude_from_sim no)
 		(at 24.892 179.578 0)
 		(effects
@@ -10291,7 +10291,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 123.19 59.69 0)
+		(at 121.92 59.69 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10300,7 +10300,7 @@
 		(fields_autoplaced yes)
 		(uuid "3343e2dc-9436-40f3-8ec6-6f915d0f89a4")
 		(property "Reference" "H4"
-			(at 125.73 57.1499 0)
+			(at 124.46 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10309,7 +10309,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 125.73 59.6899 0)
+			(at 124.46 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,7 +10318,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 123.19 59.69 0)
+			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,7 +10327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 59.69 0)
+			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,7 +10336,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 123.19 59.69 0)
+			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13212,7 +13212,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 114.3 59.69 0)
+		(at 113.03 59.69 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13221,7 +13221,7 @@
 		(fields_autoplaced yes)
 		(uuid "c73e951c-4a2f-46c7-a51a-2d327a6f26d0")
 		(property "Reference" "H3"
-			(at 116.84 57.1499 0)
+			(at 115.57 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13230,7 +13230,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 116.84 59.6899 0)
+			(at 115.57 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13239,7 +13239,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 114.3 59.69 0)
+			(at 113.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,7 +13248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 59.69 0)
+			(at 113.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13257,7 +13257,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 114.3 59.69 0)
+			(at 113.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
