@@ -1,4 +1,4 @@
-(footprint "Molex_8pin_3.50"
+(footprint "Molex_9pin_3.50"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Molex_8pin_3.50"
+	(property "Value" "Molex_9pin_3.50"
 		(at 13.9 3.3 0)
 		(layer "F.Fab")
 		(uuid "b946c0c9-9b12-4ac1-a3aa-cf4db1a0a199")
@@ -27,8 +27,8 @@
 			)
 		)
 	)
-	(property "Footprint" "Molex_8pin_3.50"
-		(at 14.725 -1.5 0)
+	(property "Footprint" "Molex_9pin_3.50"
+		(at 12.8 6.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -99,7 +99,7 @@
 	)
 	(fp_line
 		(start -0.02 -9.1)
-		(end 29.47 -9.1)
+		(end 32.98 -9.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -109,7 +109,7 @@
 	)
 	(fp_line
 		(start -0.02 -1.5)
-		(end 29.47 -1.5)
+		(end 32.98 -1.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -119,7 +119,7 @@
 	)
 	(fp_line
 		(start -0.02 0.15)
-		(end 29.47 0.15)
+		(end 32.96 0.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -128,8 +128,8 @@
 		(uuid "32bcec1a-3c43-4899-8b5d-bcde42c43451")
 	)
 	(fp_line
-		(start 29.47 -9.1)
-		(end 29.47 0.15)
+		(start 32.98 -9.1)
+		(end 32.98 0.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -138,28 +138,28 @@
 		(uuid "997e4dc4-7213-4405-b733-c76e85132787")
 	)
 	(fp_line
-		(start -0.44 -9.62)
-		(end -0.44 0.4)
+		(start -0.32 -9.45)
+		(end -0.32 0.45)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
-		(layer "F.CrtYd")
-		(uuid "57ca6a73-e429-44aa-8b32-a3a2b4887e40")
+		(layer "Margin")
+		(uuid "cb22d491-dc5f-4afc-b1c5-95c3816098d0")
 	)
 	(fp_line
-		(start -0.44 0.4)
-		(end 29.77 0.4)
+		(start -0.32 0.45)
+		(end 33.28 0.45)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
-		(layer "F.CrtYd")
-		(uuid "bdb916bb-2397-4106-983a-0ac5e45ada95")
+		(layer "Margin")
+		(uuid "28ca9ed3-369a-4d3a-925b-4efb307f05a0")
 	)
 	(fp_line
-		(start 29.77 -9.62)
-		(end -0.44 -9.62)
+		(start 33.28 -9.45)
+		(end -0.32 -9.45)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -168,8 +168,8 @@
 		(uuid "cb4e0aa6-612f-4964-9ea7-529925c03786")
 	)
 	(fp_line
-		(start 29.77 0.4)
-		(end 29.77 -9.62)
+		(start 33.28 0.45)
+		(end 33.28 -9.45)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -251,6 +251,14 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "187dc8d1-035f-4fd8-ab74-6c559c53b233")
+	)
+	(pad "9" thru_hole circle
+		(at 30.48 -7.85)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46a8111c-aa57-4325-8f6a-943ce280952c")
 	)
 	(model "$(KIPRJMOD)/../libs/3D/395021008_8pin.stp"
 		(offset
