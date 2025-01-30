@@ -144,7 +144,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "cb22d491-dc5f-4afc-b1c5-95c3816098d0")
 	)
 	(fp_line
@@ -154,7 +154,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "28ca9ed3-369a-4d3a-925b-4efb307f05a0")
 	)
 	(fp_line
