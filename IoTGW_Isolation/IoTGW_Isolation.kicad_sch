@@ -4125,7 +4125,7 @@
 		(uuid "bbe5f16f-a17b-46ee-9746-87d5d7ed2a53")
 	)
 	(no_connect
-		(at 336.55 186.69)
+		(at 332.74 185.42)
 		(uuid "00338063-a716-4d90-8f2e-c7ffc8ad09cd")
 	)
 	(no_connect
@@ -4133,7 +4133,7 @@
 		(uuid "02122d6a-152f-4044-9698-9a91eacc37f8")
 	)
 	(no_connect
-		(at 363.22 186.69)
+		(at 359.41 185.42)
 		(uuid "662462ee-0c9b-48b3-96ab-1cab1359f258")
 	)
 	(no_connect
@@ -4141,7 +4141,7 @@
 		(uuid "71f59dad-9b09-43bc-afc5-058ccaad8641")
 	)
 	(no_connect
-		(at 345.44 186.69)
+		(at 341.63 185.42)
 		(uuid "a10eb552-36cc-493e-9076-0270ccf2d6f5")
 	)
 	(no_connect
@@ -4149,7 +4149,7 @@
 		(uuid "ad553fb3-c554-4a52-80f0-090941b21210")
 	)
 	(no_connect
-		(at 354.33 186.69)
+		(at 350.52 185.42)
 		(uuid "b54f4e94-209f-43f0-8926-772868042892")
 	)
 	(no_connect
@@ -4243,16 +4243,6 @@
 			(type default)
 		)
 		(uuid "16c87bbe-6a35-4a7a-b332-bd74e5c66cb5")
-	)
-	(bus
-		(pts
-			(xy 83.82 128.27) (xy 83.82 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23790838-31c1-418c-8a0b-de3b12f3c0a2")
 	)
 	(wire
 		(pts
@@ -4614,16 +4604,6 @@
 		)
 		(uuid "752d4a10-de14-4150-8f9a-6c1261762c16")
 	)
-	(bus
-		(pts
-			(xy 83.82 119.38) (xy 92.71 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7628daf4-0dab-4272-b542-b4804d04083a")
-	)
 	(wire
 		(pts
 			(xy 146.05 97.79) (xy 148.59 97.79)
@@ -4693,16 +4673,6 @@
 			(type default)
 		)
 		(uuid "9aab0619-4d79-4366-8482-3d5654aaa5a5")
-	)
-	(bus
-		(pts
-			(xy 248.92 101.6) (xy 240.03 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c6ab957-512f-46c1-9fcc-7b126b79d253")
 	)
 	(wire
 		(pts
@@ -5024,16 +4994,6 @@
 		)
 		(uuid "deea5320-038a-487a-9438-34a5956386bd")
 	)
-	(bus
-		(pts
-			(xy 321.31 163.83) (xy 312.42 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df096ce4-2043-4dff-b331-0a475291ad26")
-	)
 	(wire
 		(pts
 			(xy 344.17 99.06) (xy 344.17 97.79)
@@ -5184,19 +5144,9 @@
 		)
 		(uuid "fe17f7ad-377f-46f0-b049-17db5d2ceb70")
 	)
-	(bus
-		(pts
-			(xy 312.42 154.94) (xy 312.42 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe94685e-70ae-4475-a7b2-4ee3980f845a")
-	)
 	(rectangle
 		(start 96.52 208.788)
-		(end 134.62 230.378)
+		(end 150.495 230.378)
 		(stroke
 			(width 0)
 			(type default)
@@ -8837,7 +8787,7 @@
 	)
 	(text "Vf = 1.2V\nIf = 20mA\nVcc = 5V (RPi)\n\nR = (Vcc - Vf) / If\nR = 190 ~ 200R\n\nIf [200R] = 19mA"
 		(exclude_from_sim no)
-		(at 114.935 219.71 0)
+		(at 133.985 219.71 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -9261,6 +9211,18 @@
 			)
 		)
 		(uuid "f365c33d-1a11-40f1-975d-6f58b73c97d1")
+	)
+	(text "Vf = 1.2V\nIf = 20mA\nVcc = 3.3V (RPi)\n\nR = (Vcc - Vf) / If\nR = 105R ~ 120R\n\nIf [120] = 17.5mA"
+		(exclude_from_sim no)
+		(at 116.205 219.71 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f70df2ff-79cd-4354-8541-c98388a407bb")
 	)
 	(text "If high = Driver enabled"
 		(exclude_from_sim no)
@@ -10703,7 +10665,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "110R"
 			(at 189.23 95.504 90)
 			(effects
 				(font
@@ -11027,7 +10989,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 363.22 184.15 0)
+		(at 359.41 182.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11036,7 +10998,7 @@
 		(fields_autoplaced yes)
 		(uuid "3343e2dc-9436-40f3-8ec6-6f915d0f89a4")
 		(property "Reference" "H4"
-			(at 365.76 181.6099 0)
+			(at 361.95 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11045,7 +11007,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 365.76 184.1499 0)
+			(at 361.95 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11054,7 +11016,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 363.22 184.15 0)
+			(at 359.41 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11063,7 +11025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 363.22 184.15 0)
+			(at 359.41 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11072,7 +11034,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 363.22 184.15 0)
+			(at 359.41 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11582,7 +11544,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 336.55 184.15 0)
+		(at 332.74 182.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11591,7 +11553,7 @@
 		(fields_autoplaced yes)
 		(uuid "409df30d-2b31-4fb0-9532-07864d7f90c2")
 		(property "Reference" "H1"
-			(at 339.09 181.6099 0)
+			(at 335.28 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11600,7 +11562,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 339.09 184.1499 0)
+			(at 335.28 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11609,7 +11571,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 336.55 184.15 0)
+			(at 332.74 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11618,7 +11580,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.55 184.15 0)
+			(at 332.74 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11627,7 +11589,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 336.55 184.15 0)
+			(at 332.74 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13689,7 +13651,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "110R"
 			(at 121.92 129.794 90)
 			(effects
 				(font
@@ -13962,7 +13924,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "110R"
 			(at 189.23 164.084 90)
 			(effects
 				(font
@@ -14468,7 +14430,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "110R"
 			(at 121.92 95.25 90)
 			(effects
 				(font
@@ -14520,7 +14482,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 354.33 184.15 0)
+		(at 350.52 182.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14529,7 +14491,7 @@
 		(fields_autoplaced yes)
 		(uuid "c73e951c-4a2f-46c7-a51a-2d327a6f26d0")
 		(property "Reference" "H3"
-			(at 356.87 181.6099 0)
+			(at 353.06 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14538,7 +14500,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 356.87 184.1499 0)
+			(at 353.06 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14547,7 +14509,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 354.33 184.15 0)
+			(at 350.52 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14556,7 +14518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 354.33 184.15 0)
+			(at 350.52 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14565,7 +14527,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 354.33 184.15 0)
+			(at 350.52 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14876,7 +14838,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "110R"
 			(at 189.23 129.794 90)
 			(effects
 				(font
@@ -15199,7 +15161,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 345.44 184.15 0)
+		(at 341.63 182.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -15208,7 +15170,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec2bc5ec-e293-4692-a608-78ae80d032bb")
 		(property "Reference" "H2"
-			(at 347.98 181.6099 0)
+			(at 344.17 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15217,7 +15179,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 347.98 184.1499 0)
+			(at 344.17 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15226,7 +15188,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 345.44 184.15 0)
+			(at 341.63 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15235,7 +15197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 184.15 0)
+			(at 341.63 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15244,7 +15206,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 345.44 184.15 0)
+			(at 341.63 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15716,7 +15678,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "110R"
 			(at 121.92 164.084 90)
 			(effects
 				(font
